@@ -10,3 +10,63 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+html {
+  font-size: 16px;
+  --max-width:1600px;
+}
+// phones
+@media screen and (min-width: 320px) {
+  html {
+    h1 {
+      font-size: calc(24px + 6 * ((100vw - 320px) / 680));
+    }
+    font-size: calc(10px + 6 * ((100vw - 320px) / 680));
+  }
+  .home-banner-text {
+    padding-right: 2%;
+  }
+}
+// tablets
+@media screen and (min-width: 500px) {
+  html {
+    h1 {
+      font-size: calc(26px + 6 * ((100vw - 320px) / 680));
+    }
+    font-size: calc(10px + 6 * ((100vw - 320px) / 680));
+  }
+}
+// laptops
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 20px;
+  }
+  .home-banner-text {
+    padding-right: 0%;
+    padding-left: 10%;
+  }
+}
+// normal desktop
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+  .banner-svg-item {
+    height: 100%;
+  }
+  .banner-svg-container {
+    display: block;
+  }
+  .home-banner-text {
+    width: 50%;
+  }
+}
+// bigger monitors
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 22px;
+  }
+  .home-banner-text {
+    padding-left: 0%;
+  }
+}
