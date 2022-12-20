@@ -1,13 +1,16 @@
 .home-banner {
-  width:100vw;
-  height: 50vh;
+  width: 100vw;
+  height: 90vh;
   margin: 0;
   border-radius: 0;
+  position: relative;
+  top: 0;
+  display: flex;
   background:
   /* top, transparent black, faked with gradient */
   linear-gradient(
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2)
+    rgba(30, 74, 120, 0.5),
+    rgba(30, 74, 120, 0.5)
   ),
   /* bottom, image */
   url("home-banner.jpeg");
@@ -20,8 +23,11 @@
 
 .home-banner-text {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
+  padding-right: 0%;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
