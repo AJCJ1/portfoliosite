@@ -1,0 +1,27 @@
+.home-banner {
+  width:100vw;
+  height: 50vh;
+  margin: 0;
+  border-radius: 0;
+  background:
+  /* top, transparent black, faked with gradient */
+  linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  ),
+  /* bottom, image */
+  url("home-banner.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: $body-font;
+  color: white;
+}
+
+.home-banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
