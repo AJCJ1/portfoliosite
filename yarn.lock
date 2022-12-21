@@ -697,6 +697,11 @@ stimulus-scroll-reveal@^3.0.0:
   resolved "https://registry.yarnpkg.com/stimulus-scroll-reveal/-/stimulus-scroll-reveal-3.0.0.tgz#0081591b0e4fc03963f7ae33d653ac4aeb73c4fc"
   integrity sha512-WRW8pwuTU3IX7jziHMSI1XxktBL2yqtwj5aJs+C6sFZ+M27+b+3df2nIYxo1O5pn+RV97exoecpUHVlDa6ALxQ==
 
+stimulus-scroll-to@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/stimulus-scroll-to/-/stimulus-scroll-to-4.0.0.tgz#433a726d37c76762d80b2e30a619bff116408608"
+  integrity sha512-/2qWiC/F2D0l1+FnOL1spTH9H6g/P5e1j/N7Ei2sgZ2/621l+t1qLzrWfHhrHDdmKAq3HlFFxNY6YEMC1jpVRw==
+
 supports-color@^8.0.0:
   version "8.1.1"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-8.1.1.tgz#cd6fc17e28500cff56c1b86c0a7fd4a54a73005c"
