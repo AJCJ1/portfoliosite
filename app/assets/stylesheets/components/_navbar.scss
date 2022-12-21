@@ -41,7 +41,7 @@
   white-space: nowrap;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) and (min-height: 360px) {
   .navbar-logo {
     display: inline;
   }

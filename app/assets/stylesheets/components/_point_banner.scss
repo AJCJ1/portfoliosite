@@ -2,5 +2,85 @@
   position: relative;
   width: 100vw;
   height: 75vh;
-  background-color: white;
+  background-color: $light-gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  color: $dark-blue;
+}
+.point {
+  width: 33.3%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15vh;
+}
+
+.point-center {
+  border-left: 1px solid $dark-blue;
+  border-right: 1px solid $dark-blue;
+}
+
+.circle {
+  background-color: $blue;
+  border-radius: 50%;
+  width: 5vh;
+  height: 5vh;
+}
+
+.point-head {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
+
+.point-sub-text {
+  width: 50%;
+  height: 25%;
+}
+
+@media screen and (min-height:500px) {
+
+  .point-banner {
+    height: 30vh;
+  }
+
+  .point-head {
+    gap: 3vh;
+  }
+
+  .point {
+    gap: 2vh;
+  }
+
+  .point-sub-text {
+    width: 85%;
+    height: 25%;
+  }
+}
+@media screen and (min-width:800px) and (min-height:500px) {
+
+  .point-banner {
+    height: 50vh;
+  }
+
+  .point-head {
+    gap: 6vh;
+  }
+
+  .point {
+    gap: 2vh;
+  }
+
+  .point-sub-text {
+    width: 50%;
+    height: 25%;
+  }
 }

@@ -14,6 +14,9 @@
 html {
   font-size: 16px;
   --max-width:1600px;
+  p {
+    font-size: 10px;
+  }
 }
 // phones
 @media screen and (min-width: 320px) {
@@ -25,6 +28,9 @@ html {
   }
   .home-banner-text {
     padding-right: 2%;
+      h1 {
+        font-size: 38px;
+      }
   }
 }
 // tablets
@@ -35,6 +41,11 @@ html {
     }
     font-size: calc(10px + 6 * ((100vw - 320px) / 680));
   }
+  .home-banner-text {
+    h1 {
+      font-size: 58px;
+    }
+  }
 }
 // laptops
 @media screen and (min-width: 992px) {
@@ -43,7 +54,13 @@ html {
   }
   .home-banner-text {
     padding-right: 0%;
-    padding-left: 10%;
+    padding-left: 1.5%;
+    h1 {
+      font-size: 54px;
+    }
+  }
+  .home-banner {
+    height: 90vh;
   }
 }
 // normal desktop
@@ -51,6 +68,9 @@ html {
   html {
     font-size: 20px;
   }
+}
+@media screen and (min-width: 1200px) and (min-height:525px) {
+
   .banner-svg-item {
     height: 100%;
   }
@@ -64,9 +84,13 @@ html {
 // bigger monitors
 @media screen and (min-width: 1600px) {
   html {
-    font-size: 22px;
+    font-size: 32px;
   }
   .home-banner-text {
     padding-left: 0%;
+    h1 {
+      font-size: 64px;
+    }
   }
+
 }
