@@ -10,7 +10,7 @@
   color: $dark-blue;
 }
 .point {
-  width: 33.3%;
+  width: 50%;
   height: 100%;
   text-align: center;
   display: flex;
@@ -42,8 +42,9 @@
 }
 
 .point-sub-text {
-  width: 50%;
-  height: 25%;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
 }
 //phones
 @media screen and (min-height:500px) {
@@ -59,11 +60,6 @@
   .point {
     gap: 2vh;
   }
-
-  .point-sub-text {
-    width: 85%;
-    height: 25%;
-  }
 }
 //tablets
 @media screen and (min-width:800px) and (min-height:500px) {
@@ -78,11 +74,6 @@
 
   .point {
     gap: 2vh;
-  }
-
-  .point-sub-text {
-    width: 50%;
-    height: 25%;
   }
 
   .circle {
