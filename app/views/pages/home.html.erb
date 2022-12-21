@@ -13,9 +13,9 @@
         </svg>
       </div>
 
-  <div class="home-banner-text">
-    <h1>Creative Designer</h1>
-    <h1>And Developer.</h1>
+  <div class="home-banner-text" data-controller="scroll-reveal">
+    <h1 class="reveal" data-scroll-reveal-target="item">Creative Designer</h1>
+    <h1 class="reveal" data-scroll-reveal-target="item" data-delay="250ms">And Developer.</h1>
   </div>
 </div>
 
@@ -42,17 +42,42 @@
         <div class="circle"></div>
         <h2 class="text-decoration-underline">Scalable</h2>
       </div>
-      <p class="point-sub-text">Dedicated servers, allows for scaling up your site with ease.</p>
+      <p class="point-sub-text">regular maintenance and upkeep, so you're not left in the dark.</p>
     </div>
 
 </div>
-<div class="services-banner-container">
 
-  <div class="box-r"></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div class="box-r"></div>
+<div class="services-header">
+  <h1>Services</h1>
 </div>
+<div class="services-banner-container" data-controller="scroll-reveal">
+    <div class="service-item">
+      <%= image_tag "figma-vector.svg"%>
+      <p class="service-sub-text reveal" data-scroll-reveal-target="item">
+        Skilled in Figma, we can work together to develop a prototype of the site/app.
+      </p>
+    </div>
+    <div class="service-item">
+      <%= image_tag "full-vector.svg"%>
+      <p class="service-sub-text reveal" data-scroll-reveal-target="item">
+        As a Full-stack developer, I can then take your idea and make it a fully functioning site/app.
+      </p>
+    </div>
+    <div class="service-item">
+      <%= image_tag "responsive-vector.svg"%>
+      <p class="service-sub-text reveal" data-scroll-reveal-target="item">
+        I can make your site/app responsive to mobile, tablet and larger devices.
+      </p>
+    </div>
+    <div class="service-item">
+      <%= image_tag "seo-vector.svg"%>
+      <p class="service-sub-text reveal" data-scroll-reveal-target="item">
+        I can implement industry standard techniques to make your site available to search engines.
+      </p>
+    </div>
+</div>
+<%#
+    <div data-controller="scroll-reveal">
+      <p data-scroll-reveal-target="item" class="reveal">Hello</p>
+      <p data-scroll-reveal-target="item" class="reveal" data-delay="250ms">World!</p>
+    </div> %>
