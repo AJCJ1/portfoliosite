@@ -1,19 +1,23 @@
 .navbar-container {
+  transform: translate3d(0px, 0px, 0px);
   z-index: 1000;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 5vh;
+  height: 15vh;
   position: fixed;
   color: white;
   background-color: transparent;
-  padding-top: 4%;
+  transition: 0.3s ease;
   top: 0;
-  gap: 1%;
+  gap: 2%;
   a {
     text-decoration: none;
     color: white;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
 
@@ -48,4 +52,12 @@
   .navbar-container {
     gap: 0%;
   }
+}
+
+.contraster {
+  background-color: $dark-blue;
+}
+
+.hider {
+  transform: translate3d(0px, -100%, 0px);
 }
