@@ -28,8 +28,8 @@
 .circle {
   background-color: $blue;
   border-radius: 50%;
-  width: 5vh;
-  height: 5vh;
+  width: 3vh;
+  height: 3vh;
 }
 
 .point-head {
@@ -45,7 +45,7 @@
   width: 50%;
   height: 25%;
 }
-
+//phones
 @media screen and (min-height:500px) {
 
   .point-banner {
@@ -65,6 +65,7 @@
     height: 25%;
   }
 }
+//tablets
 @media screen and (min-width:800px) and (min-height:500px) {
 
   .point-banner {
@@ -82,5 +83,22 @@
   .point-sub-text {
     width: 50%;
     height: 25%;
+  }
+
+  .circle {
+    width: 4vh;
+    height: 4vh;
+  }
+}
+// macbook pro
+@media screen and (min-width: 1200px) and (min-height:525px) {
+
+  .point-banner {
+    height: 60vh;
+  }
+
+  .circle {
+    width: 4vh;
+    height: 4vh;
   }
 }
