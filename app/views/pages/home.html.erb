@@ -1,81 +1,65 @@
 <div id="top"></div>
-
+<div class="socials" data-controller="socials scroll-reveal" data-action="scroll@window->socials#update">
+  <h1 class="reveal" data-socials-target="social" data-scroll-reveal-target="item"><i class="fa-brands fa-instagram"></i></h1>
+  <h1 class="reveal" data-scroll-reveal-target="item"><i class="fa-brands fa-linkedin-in"></i></h1>
+  <h1 class="reveal" data-scroll-reveal-target="item"><i class="fa-brands fa-github"></i></h1>
+</div>
 <div class="home-banner">
-
-      <div class="banner-svg-container">
-        <svg class="banner-svg-item" viewBox="0 0 708 655" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M186 273.417H436V343.677C436 398.906 391.228 443.677 336 443.677H186V273.417Z" fill="#96C3F6"/>
-          <path d="M186 100C186 44.7715 230.772 0 286 0H436V278.578C436 333.806 391.228 378.578 336 378.578H186V100Z" fill="#F7F7F7"/>
-          <path d="M458 0H608C663.228 0 708 44.7715 708 100V378.578H458V0Z" fill="#4E6E91"/>
-          <path d="M186 463.708H336C391.228 463.708 436 508.48 436 563.708V655H186V463.708Z" fill="#4E6E91"/>
-          <ellipse class="ellipse-stand" cx="583" cy="387.592" rx="125" ry="125.191" fill="#F7F7F7"/>
-          <path d="M65 1.00159C120.228 1.00159 165 45.7731 165 101.002L165 443.677H0L0 1.00159L65 1.00159Z" fill="#4E6E91"/>
-        </svg>
-      </div>
-
+  <div class="banner-svg-container">
+    <svg class="banner-svg-item" viewBox="0 0 708 655" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M186 273.417H436V343.677C436 398.906 391.228 443.677 336 443.677H186V273.417Z" fill="#96C3F6"/>
+      <path d="M186 100C186 44.7715 230.772 0 286 0H436V278.578C436 333.806 391.228 378.578 336 378.578H186V100Z" fill="#F7F7F7"/>
+      <path d="M458 0H608C663.228 0 708 44.7715 708 100V378.578H458V0Z" fill="#4E6E91"/>
+      <path d="M186 463.708H336C391.228 463.708 436 508.48 436 563.708V655H186V463.708Z" fill="#4E6E91"/>
+      <ellipse class="ellipse-stand" cx="583" cy="387.592" rx="125" ry="125.191" fill="#F7F7F7"/>
+      <path d="M65 1.00159C120.228 1.00159 165 45.7731 165 101.002L165 443.677H0L0 1.00159L65 1.00159Z" fill="#4E6E91"/>
+    </svg>
+  </div>
   <div class="home-banner-text" data-controller="scroll-reveal">
     <h1 class="reveal" data-scroll-reveal-target="item">Creative Designer</h1>
     <h1 class="reveal" data-scroll-reveal-target="item" data-delay="250ms">And Developer.</h1>
   </div>
 </div>
-
-
-
 <div class="point-banner d-flex">
-
-    <div class="point">
-      <div class="point-head">
-        <div class="circle"></div>
-        <h2>Welcome.</h2>
-      </div>
-      <p class="point-sub-text">Thank you for taking the time to browse my portfolio. You'll find information
-      about my previous experience and the services I can offer.</p>
+  <div class="point">
+    <div class="point-head">
+      <div class="circle"></div>
+      <h2>Welcome.</h2>
     </div>
-
-    </div>
-
+    <p class="point-sub-text">Thank you for taking the time to browse my portfolio. You'll find information
+    about my previous experience and the services I can offer.</p>
+  </div>
 </div>
-
 <div class="services-header">
   <h1>Services</h1>
 </div>
 <div class="services-banner-container" data-controller="scroll-reveal">
-    <div class="service-item">
-      <%= image_tag "figma-vector.svg"%>
-      <p class="service-sub-text reveal" data-scroll-reveal-target="item">
-        Skilled in Figma, we can work together to develop a prototype of your idea. Let's be bold and be different!
-      </p>
-    </div>
-    <div class="service-item">
-      <%= image_tag "full-vector.svg"%>
-      <p class="service-sub-text reveal" data-scroll-reveal-target="item">
-        From front to back, we will take your idea and make it a fully functioning and original website.
-      </p>
-    </div>
-    <div class="service-item">
-      <%= image_tag "responsive-vector.svg"%>
-      <p class="service-sub-text reveal" data-scroll-reveal-target="item">
-         Websites will become a responsive user interface for mobile, tablets and larger devices. No more clunky, oversized designs.
-      </p>
-    </div>
-    <div class="service-item">
-      <%= image_tag "seo-vector.svg"%>
-      <p class="service-sub-text reveal" data-scroll-reveal-target="item">
-        Using industry standard techniques, your site will be available and favourable to search engines like Google or Ecosia.
-      </p>
-    </div>
+  <div class="service-item">
+    <%= image_tag "figma-vector.svg"%>
+    <p class="service-sub-text reveal" data-scroll-reveal-target="item">
+      <i class="fa-brands fa-figma"></i>Skilled in Figma, we can work together to develop a prototype of your idea. Let's be bold and be different!
+    </p>
+  </div>
+  <div class="service-item">
+    <%= image_tag "full-vector.svg"%>
+    <p class="service-sub-text reveal" data-scroll-reveal-target="item">
+      From front to back, we will take your idea and make it a fully functioning and original website.
+    </p>
+  </div>
+  <div class="service-item">
+    <%= image_tag "responsive-vector.svg"%>
+    <p class="service-sub-text reveal" data-scroll-reveal-target="item">
+        Websites will become a responsive user interface for mobile, tablets and larger devices. No more clunky, oversized designs.
+    </p>
+  </div>
+  <div class="service-item">
+    <%= image_tag "seo-vector.svg"%>
+    <p class="service-sub-text reveal" data-scroll-reveal-target="item">
+      Using industry standard techniques, your site will be available and favourable to search engines like Google or Ecosia.
+    </p>
+  </div>
 </div>
-<%#
-    <div data-controller="scroll-reveal">
-      <p data-scroll-reveal-target="item" class="reveal">Hello</p>
-      <p data-scroll-reveal-target="item" class="reveal" data-delay="250ms">World!</p>
-    </div> %>
-
-
-
 
 <div class="about-container">About</div>
-
-
 
 <a href="#top" data-controller="scroll-to" class="back-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>

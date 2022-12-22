@@ -10,8 +10,8 @@ application.register("hello", HelloController)
 import NavbarController from "./navbar_controller"
 application.register("navbar", NavbarController)
 
+import SocialsController from "./socials_controller"
+application.register("socials", SocialsController)
+
 import ScrollReveal from 'stimulus-scroll-reveal'
 application.register('scroll-reveal', ScrollReveal)
-
-import ScrollTo from 'stimulus-scroll-to'
-application.register('scroll-to', ScrollTo)

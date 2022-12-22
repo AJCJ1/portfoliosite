@@ -1,0 +1,16 @@
+.socials {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  left: 5vh;
+  top: 17vh;
+  z-index: 1000;
+  color: white;
+  padding: 1%;
+}
+
+.socials-back {
+  background-color: $dark-blue;
+  border-radius: 5px;
+}
