@@ -60,12 +60,30 @@
   </div>
 </div>
 
-<div id="about" class="about-container">About
+<h1 class="about-title">About</h1>
+<div class="about-container d-flex">
+  <div class="about-point-container">
+    <div class="point-head">
+      <div class="circle"></div>
+    </div>
+    <p class="ind-p-desc"> Previously in UK Law enforcement, as both a Police Constable and Detective. </p>
+  </div>
+  <div class="about-point-container">
+    <div class="point-head">
+      <div class="circle"></div>
+    </div>
+    <p class="ind-p-desc">
+      Graduated from an Intensive Full-Stack Development Bootcamp at
+      <%= link_to (image_tag "lewagon.svg"), "https://www.lewagon.com", target:"_blank", class:"lewagon-link" %>
+    </p>
+  </div>
+</div>
 
-</div>
-<div id="portfolio" class="portfolio-container">Previous works
+
+
+<%# <div id="portfolio" class="portfolio-container">Previous works %>
 <%# <%= link_to "TripSelector", "https://www.trips-selector.com", target:"_blank" %>
-</div>
+<%# </div> %>
 
 <div class="socials-bottom" data-controller="scroll-reveal bottomsocials" data-action="scroll@window->bottomsocials#update" data-bottomsocials-target="bottomsocials">
   <h1 class="reveal insta" data-scroll-reveal-target="item"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></a></i></h1>
