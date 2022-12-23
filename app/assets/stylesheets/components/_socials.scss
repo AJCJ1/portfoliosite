@@ -28,7 +28,8 @@
   border-radius: 50%;
   line-height: 2rem;
   padding: 1%;
-  transition: 0.2s ease;
+  transform: translate3d(500px, 0px, 0px);
+  transition: 0.4s ease;
   h1>a {
     text-decoration: none;
     color: $light-blue;
@@ -40,6 +41,10 @@
   gap: 15%;
   right: 10rem;
   bottom: 1.8rem;
+}
+.socials-b-show {
+  transform: translate3d(0px, 0px, 0px);
+  transition: 0.2s ease;
 }
 
 .insta:hover {
