@@ -13,9 +13,8 @@
   h1>a {
     text-decoration: none;
     color: white;
-    &:hover {
-      color: rgba($color: #f7f7f7, $alpha: 0.8);
-    }
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
@@ -29,17 +28,42 @@
   border-radius: 50%;
   line-height: 2rem;
   padding: 1%;
-  color: $light-blue;
   transition: 0.2s ease;
   h1>a {
     text-decoration: none;
-    color: white;
-    &:hover {
-      color: rgba($color: #96C3F6, $alpha: 0.8);
-    }
+    color: $light-blue;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   gap: 25%;
   right: 10rem;
   bottom: 1.8rem;
+}
+
+.insta:hover {
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.linkedin:hover {
+  a {
+    background-color:#0A66C2;
+    border-radius: 2.5px;
+    color: $white;
+  }
+}
+
+.github:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animateBg 5s linear infinite;
+  background-image: linear-gradient(45deg,#d53636,#def2a0,#c6ee4a,#42eca6,#498ada,#5b73df,#5e4bd7,#cf5c5c,#e5d3ab);
+  background-size: 100% 1100%;
+  @keyframes animateBg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 0% 100%; }
+  }
 }
