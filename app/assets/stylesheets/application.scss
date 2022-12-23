@@ -76,11 +76,10 @@ html {
   .socials {
     top: 28vh;
   }
-
   .socials-bottom {
     font-size: xx-large;
-    gap: 15%;
-    right: 5rem;
+    gap: 25%;
+    right: 9rem;
     bottom: 1.8rem;
   }
 }
@@ -92,6 +91,7 @@ html {
       font-size: 26px;
     }
   }
+
 }
 @media screen and (min-width: 1200px) and (min-height:525px) {
 
@@ -116,5 +116,10 @@ html {
       font-size: 64px;
     }
   }
-
+  .socials-bottom {
+    font-size: xx-large;
+    gap: 25%;
+    right: 7rem;
+    bottom: 1.8rem;
+  }
 }
