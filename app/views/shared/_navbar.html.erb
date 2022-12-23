@@ -1,7 +1,7 @@
 <div class="navbar-container" data-controller="navbar scroll-reveal" data-navbar-target="navcontainer" data-action="scroll@window->navbar#update">
   <div data-scroll-reveal-target="item" class="reveal side-cta-container left-cta-container">
-    <%= link_to "About", "/about"%>
-    <%= link_to "Portfolio", "/portfolio"%>
+    <a href="#about" data-controller="scroll-to">About</a>
+    <a href="#portfolio" data-controller="scroll-to">Portfolio</a>
     <h1 class="navbar-name">Arnold</h1>
   </div>
   <svg data-scroll-reveal-target="item" class="reveal navbar-logo" preserveAspectRadio="xMinYMin meet" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,7 +11,7 @@
   </svg>
   <div data-scroll-reveal-target="item" class="reveal side-cta-container right-cta-container">
     <h1 class="navbar-name">C. Jones</h1>
-    <%= link_to "Contact", "/contact"%>
-    <%= link_to "Services", "/services"%>
+    <a href="#footer" data-controller="scroll-to">Contact</a>
+    <a href="#services" data-controller="scroll-to">Services</a>
   </div>
 </div>
