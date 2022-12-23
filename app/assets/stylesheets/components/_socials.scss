@@ -13,13 +13,33 @@
   h1>a {
     text-decoration: none;
     color: white;
-  }
-  h1>a:hover {
-    text-decoration: none;
-    color: rgba($color: #f7f7f7, $alpha: 0.8)
+    &:hover {
+      color: rgba($color: #f7f7f7, $alpha: 0.8);
+    }
   }
 }
 
 .socials-back {
   transform: translate3d(-400%, 0px, 0px);
+}
+
+.socials-bottom {
+  display: flex;
+  position: fixed;
+  border-radius: 50%;
+  line-height: 2rem;
+  padding: 1%;
+  color: $light-blue;
+  transition: 0.2s ease;
+  h1>a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: rgba($color: #96C3F6, $alpha: 0.8);
+    }
+  }
+
+  gap: 25%;
+  right: 10rem;
+  bottom: 1.8rem;
 }
