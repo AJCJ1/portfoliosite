@@ -34,6 +34,7 @@
     color: $light-blue;
     padding-left: 5px;
     padding-right: 5px;
+    padding-top: 5px;
   }
 
   gap: 25%;
@@ -42,7 +43,7 @@
 }
 
 .insta:hover {
-  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f03333 0%,#e63c3c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -59,8 +60,8 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: animateBg 5s linear infinite;
-  background-image: linear-gradient(45deg,#d53636,#def2a0,#c6ee4a,#42eca6,#498ada,#5b73df,#5e4bd7,#cf5c5c,#e5d3ab);
+  animation: animateBg 2s linear infinite;
+  background-image: linear-gradient(45deg, #ff0000 0%,#effb00 25%,#8cff00 50%,#0101f7 75%,#ff00bf 100%);
   background-size: 100% 1100%;
   @keyframes animateBg {
     0% { background-position: 0% 0%; }
