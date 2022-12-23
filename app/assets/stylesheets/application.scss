@@ -59,6 +59,7 @@ html {
     gap: 5vh;
   }
 }
+
 // laptops
 @media screen and (min-width: 992px) {
   html {
@@ -83,6 +84,7 @@ html {
     top: 28vh;
   }
   .socials-bottom {
+    flex-direction: row;
     font-size: xx-large;
     gap: 25%;
     right: 9rem;
