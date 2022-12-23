@@ -5,7 +5,6 @@ let scroll_direction;
 // Connects to data-controller="navbar"
 export default class extends Controller {
   connect() {
-    console.log("connects");
   }
 
   update() {
@@ -17,7 +16,6 @@ export default class extends Controller {
 
     scroll_direction = (document.body.getBoundingClientRect()).top > scroll_position ? 'up' : 'down';
     scroll_position = (document.body.getBoundingClientRect()).top;
-    console.log(scroll_direction);
 
     if (scroll_direction == 'down') {
       this.element.classList.add("hider")

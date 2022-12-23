@@ -1,0 +1,75 @@
+.socials {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  left: 5vh;
+  top: 17vh;
+  z-index: 1000;
+  color: white;
+  padding: 1%;
+  transform: translate3d(0px, 0px, 0px);
+  transition: 0.4s ease;
+  h1>a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.socials-back {
+  transform: translate3d(-400%, 0px, 0px);
+}
+
+.socials-bottom {
+  display: flex;
+  position: fixed;
+  border-radius: 50%;
+  line-height: 2rem;
+  padding: 1%;
+  transform: translate3d(500px, 0px, 0px);
+  transition: 0.4s ease;
+  h1>a {
+    text-decoration: none;
+    color: $light-blue;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+  }
+
+  gap: 15%;
+  right: 10rem;
+  bottom: 1.8rem;
+}
+.socials-b-show {
+  transform: translate3d(0px, 0px, 0px);
+  transition: 0.2s ease;
+}
+
+.insta:hover {
+  background: -webkit-linear-gradient(45deg, #f03333 0%,#e63c3c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.linkedin:hover {
+  a {
+    background-color:#0A66C2;
+    border-radius: 2.5px;
+    color: $white;
+  }
+}
+
+.github:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animateBg 2s linear infinite;
+  background-image: linear-gradient(45deg, #ff0000 0%,#effb00 25%,#8cff00 50%,#0101f7 75%,#ff00bf 100%);
+  background-size: 100% 1100%;
+  @keyframes animateBg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 0% 100%; }
+  }
+}
