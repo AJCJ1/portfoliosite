@@ -20,6 +20,7 @@
     <h1 class="reveal" data-scroll-reveal-target="item" data-delay="750ms">And Developer.</h1>
   </div>
 </div>
+
 <div class="point-banner d-flex">
   <div class="point">
     <div class="point-head">
@@ -30,7 +31,7 @@
     about my previous experience and the services I can offer.</p>
   </div>
 </div>
-<div class="services-header">
+<div class="dark-header">
   <h1>Services</h1>
 </div>
 <div id="services" class="services-banner-container" data-controller="scroll-reveal">
@@ -80,10 +81,79 @@
 </div>
 
 
+<div class="dark-header">
+  <h1>Previous Work</h1>
+</div>
+<div id="portfolio" class="portfolio-container">
 
-<%# <div id="portfolio" class="portfolio-container">Previous works %>
-<%# <%= link_to "TripSelector", "https://www.trips-selector.com", target:"_blank" %>
-<%# </div> %>
+<div class="work-container">
+    <div class="portfolio-left">
+      <%= link_to "TripSelector", "https://www.trips-selector.com", target:"_blank", class:"px-2 port-subhead"%>
+      <div id="carouselExampleCaptions" class="work-carousel carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner port-carousel-inner">
+          <div class="carousel-item active">
+            <%= image_tag "tripselectorpg1.png", class:"d-block w-100", alt:"tripselector's home page" %>
+          </div>
+          <div class="carousel-item">
+            <%= image_tag "tripselectorpg2.png", class:"d-block w-100", alt:"tripselector's new journey page" %>
+          </div>
+          <div class="carousel-item">
+            <%= image_tag "tripselectorpg3.png", class:"d-block w-100", alt:"tripselector's display page" %>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p>
+        With a team during my training at
+        <%= link_to (image_tag "lewagon.svg"), "https://www.lewagon.com", target:"_blank", class:"lewagon-link" %>,
+        we created an application that takes any number of parameters you feed it, and generates a random journey.
+      </p>
+    </div>
+
+
+</div>
+<%# end of tripselector carousel %>
+<div class="fold">
+    <div class="title">
+      <p class="letter letter-1"><span>A</span></p>
+      <p class="letter letter-2"><span>r</span></p>
+      <p class="letter letter-3"><span>n</span></p>
+      <p class="letter letter-4"><span>o</span></p>
+      <p class="letter letter-5"><span>l</span></p>
+      <p class="letter letter-6"><span>d</span></p>
+      <p class="letter letter-7"><span>C.</span></p>
+      <p class="letter letter-8"><span>J</span></p>
+      <p class="letter letter-9"><span>o</span></p>
+      <p class="letter letter-10"><span>n</span></p>
+      <p class="letter letter-11"><span>e</span></p>
+      <p class="letter letter-12"><span>s</span></p>
+      <p class="letter letter-13">
+        <span>
+          <svg class="spinner-logo" preserveAspectRadio="xMinYMin meet" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50.2083 13.75C47.7083 16.875 45.8333 20.2084 45.8333 21.0417C45.8333 24.1667 50.4167 23.125 53.125 19.375C55.4167 16.25 56.25 16.25 62.2917 20.625C65.8333 23.125 68.75 26.25 68.75 27.5C68.75 28.5417 71.6667 32.2917 75 35.4167C78.5417 38.5417 81.25 42.2917 81.25 43.5417C81.25 45 72.0833 45.8334 53.125 45.8334C37.7083 45.8334 25 45 25 43.9584C25 42.9167 28.3333 39.5834 32.5 36.4584C37.9167 32.2917 40.625 31.4584 42.2917 33.125C45.1614 32.143 45.8333 35.4167 47.2917 35.4167C48.3872 37.9167 50.2083 29.375 44.7917 25.8334C39.5833 22.5 39.1667 22.5 33.75 27.5C30.625 30.4167 26.4583 33.3334 24.5833 33.9584C22.5 34.5834 20.4167 37.5 19.5833 40.4167C18.75 43.9584 16.6667 45.8334 12.9167 46.25C10 46.6667 7.29167 48.125 6.66667 49.375C6.04167 51.4584 15.625 52.0834 49.7917 52.0834C91.25 52.0834 98.5417 51.0417 91.0417 46.4584C89.5833 45.625 87.0833 41.6667 85.625 37.9167C83.9583 34.1667 81.0417 30.2084 78.75 28.9584C76.6667 27.7084 73.9583 24.5834 72.9167 21.6667C71.875 18.9584 69.5833 16.6667 68.125 16.6667C66.4583 16.6667 63.5417 14.7917 61.4583 12.5C56.6667 7.08337 55.4167 7.29171 50.2083 13.75Z" fill="white"/>
+            <path d="M18.75 58.3334C18.75 60.625 21.6667 63.3334 32.9167 72.0834C39.375 77.2917 40 77.2917 44.7917 74.1667C50.2083 70.625 51.875 64.5834 47.2917 64.5834C45.8333 64.5834 43.5417 65.625 42.2917 66.875C40.4167 68.75 37.7083 67.7084 31.6667 62.7084C23.125 56.0417 18.75 54.5834 18.75 58.3334Z" fill="white"/>
+            <path d="M78.75 61.4584C77.5 64.375 75.2083 66.6667 73.5417 66.6667C72.0833 66.6667 70 68.75 68.9583 71.4584C67.9167 74.1667 64.375 78.125 61.25 80.2084C56.0417 83.5417 55.4167 83.5417 53.125 80.4167C50.4167 76.875 45.8333 75.8334 45.8333 78.9584C45.8333 80.2084 47.9167 83.5417 50.625 86.4584L55.2083 92.0834L64.1667 86.25C68.9583 83.125 72.9167 79.375 72.9167 78.125C72.9167 76.875 75.8333 73.5417 79.1667 70.4167C82.7083 67.5 85.4167 62.9167 85.4167 60.625C85.4167 54.5834 81.6667 55.2084 78.75 61.4584Z" fill="white"/>
+          </svg>
+        </span>
+      </p>
+    </div>
+  </div>
+
+
+</div>
+</div>
 
 <div class="socials-bottom" data-controller="scroll-reveal bottomsocials" data-action="scroll@window->bottomsocials#update" data-bottomsocials-target="bottomsocials">
   <h1 class="reveal insta" data-scroll-reveal-target="item"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></a></i></h1>

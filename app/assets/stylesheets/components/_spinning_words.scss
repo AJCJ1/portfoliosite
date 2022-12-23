@@ -1,0 +1,68 @@
+.circle-abs {
+  position: absolute;
+}
+
+
+$full-circle: 360;
+
+.fold {
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  .title {
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    transform: rotate(0deg);
+    animation: spinningTitle 10s infinite linear;
+    color: white;
+    line-height: 0;
+    text-transform: capitalize;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+
+    @for $i from 1 through 14 {
+      .letter-#{$i} {
+        // text-align: center;
+        transform-origin: center;
+        position: absolute;
+        transform: rotate( #{round(($full-circle / 13) * $i) }deg) translate(#{ round((20 / 13)) }vw);
+        font-size: 4vw;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+      .letter {
+        span{
+          display: inline-block;
+          transform: rotate(-#{($full-circle / 13) + 11 }deg);
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+@keyframes spinningTitle {
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+.spinner-logo {
+  height: 50px;
+  width: fit-content;
+}

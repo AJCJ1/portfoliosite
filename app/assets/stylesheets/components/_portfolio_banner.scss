@@ -1,0 +1,32 @@
+.portfolio-container {
+  height: 100vh;
+  background-color: $dark-blue;
+  display: flex;
+}
+
+.port-subhead {
+  color: $white;
+  text-decoration: none;
+  margin-bottom: 2.5%;
+  &:hover {
+    color: $light-blue;
+  }
+}
+
+.work-container {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+}
+
+.work-carousel {
+  margin-left: 2%;
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.port-carousel-inner {
+  height: 100%;
+}
