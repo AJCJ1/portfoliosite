@@ -11,6 +11,12 @@
 @import "components/index";
 @import "pages/index";
 
+* {
+  text-rendering: optimizeLegibility;
+}
+
+
+
 html {
   font-size: 16px;
   --max-width:1600px;
