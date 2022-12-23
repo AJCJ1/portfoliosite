@@ -11,11 +11,44 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animateBg 10s linear infinite;
-  background-image: linear-gradient(45deg, #ff0000 0%,#effb00 25%,#8cff00 50%,#0101f7 75%,#ff00bf 100%);
+  background-image: linear-gradient(45deg, #c5f0ff,#effb00,#2e9ea4,#0101f7,#c5f0ff);
   background-size: 100% 1100%;
     @keyframes animateBg {
       0% { background-position: 0% 0%; }
       100% { background-position: 0% 100%; }
     }
   }
+}
+
+
+// test
+.main {
+--viewport-height: 948px;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+margin: 0;
+font: inherit;
+vertical-align: baseline;
+-webkit-tap-highlight-color: transparent;
+user-select: none;
+text-align: center;
+font-family: "Neue Montreal",sans-serif;
+outline: none;
+text-decoration: none !important;
+overflow: hidden;
+transition: cubic-bezier(0.22, 0.61, 0.36, 1) .4s all;
+height: 48px;
+line-height: 47px;
+border: 1px solid #f5eee6;
+position: relative;
+display: inline-block;
+font-size: 2.125rem;
+text-transform: uppercase;
+border-radius: 24px;
+padding: 0 1rem;
+cursor: pointer;
+color: #131313;
+background-color: #f5eee6;
+opacity: 1;
+transform: translate(0px, 0%);
 }

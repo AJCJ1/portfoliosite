@@ -90,6 +90,13 @@ html {
     right: 9rem;
     bottom: 1.8rem;
   }
+  .about-container {
+    height: 30vh;
+  }
+  .about-point-container{
+    height: 25vh;
+    width: 34vw;
+  }
 }
 // normal desktop
 @media screen and (min-width: 1200px) {
