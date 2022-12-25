@@ -2,31 +2,42 @@
   height: 100vh;
   background-color: $dark-blue;
   display: flex;
-}
-
-.port-subhead {
-  color: $white;
-  text-decoration: none;
-  margin-bottom: 2.5%;
-  &:hover {
-    color: $light-blue;
-  }
+  flex-direction: column;
 }
 
 .work-container {
   display: flex;
-  width: 80vw;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work {
+  width: 80%;
   margin: auto;
+  a {
+    color: $white;
+    text-decoration: none;
+    margin-bottom: 2.5%;
+  }
+  h2 {
+    margin: auto 0;
+  }
 }
-
-.work-carousel {
-  margin-left: 2%;
-  width: 100%;
-  height: 75%;
-  overflow: hidden;
-  border-radius: 15px;
+.work:hover {
+  img {
+    box-shadow: 2px 2px 0px $light-blue;
+    transition: 0.3s ease;
+  }
+  a {
+    color: $light-blue;
+    }
 }
-
-.port-carousel-inner {
-  height: 100%;
+.work-desc {
+  color: $white;
+}
+.tripselector-img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 20%;
 }
