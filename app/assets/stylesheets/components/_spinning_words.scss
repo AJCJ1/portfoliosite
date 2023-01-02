@@ -10,9 +10,12 @@ $full-circle: 360;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 50%;
+  height: 25vh;
+  width: 100%;
   overflow: hidden;
+  position: absolute;
+  bottom: 5vh;
+
   .title {
     width: 20vw;
     height: 20vw;

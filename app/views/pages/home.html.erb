@@ -1,7 +1,7 @@
 <div id="top"></div>
 <div class="socials" data-controller="socials scroll-reveal" data-action="scroll@window->socials#update">
   <h1 class="reveal insta" data-socials-target="social" data-scroll-reveal-target="item"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></a></i></h1>
-  <h1 class="reveal linkedin" data-scroll-reveal-target="item"><a href="https://www.linkedin.com/in/arnold-c-0a3079244/" target="_blank"><i class="fa-brands fa-linkedin-in"></a></i></h1>
+  <h1 class="reveal linkedin" data-scroll-reveal-target="item"><a href="https://www.linkedin.com/in/arnoldcubicijones/" target="_blank"><i class="fa-brands fa-linkedin-in"></a></i></h1>
   <h1 class="reveal github" data-scroll-reveal-target="item"><a href="https://www.github.com/AJCJ1" target="_blank"><i class="fa-brands fa-github"></i></a></h1>
 </div>
 <div class="home-banner">
@@ -38,19 +38,19 @@
   <div class="service-item">
     <%= image_tag "figma-vector.svg"%>
     <p class="service-sub-text reveal" data-scroll-reveal-target="item">
-      Trained in Figma <i class="fa-brands fa-figma"></i> to develop a prototype of your idea.
+      I protoype ideas with <%= link_to raw("<span>Figma <i class='fa-brands fa-figma'></i></span>"), "https://www.figma.com/", target:"_blank" %>. This allows me to work with others and visualise ideas.
     </p>
   </div>
   <div class="service-item">
     <%= image_tag "full-vector.svg"%>
     <p class="service-sub-text reveal" data-scroll-reveal-target="item">
-      From front to back, I can take an idea and make it a fully functioning and original website.
+      From front to back, I can take an idea and make it a fully functioning and bespoke website.
     </p>
   </div>
   <div class="service-item">
     <%= image_tag "responsive-vector.svg"%>
     <p class="service-sub-text reveal" data-scroll-reveal-target="item">
-      Responsive by design. No clunky, oversized designs or buttons leaving the page...
+      Responsive by design. I make sites that look good regardless of device.
     </p>
   </div>
   <div class="service-item">
@@ -90,13 +90,14 @@
     <div class="portfolio-left">
       <div class="work">
         <div class="d-flex">
-          <%= link_to (image_tag("tripselector.png", class:"tripselector-img", alt:"image of tripselector logo")), "https://www.trips-selector.com", target:"_blank", class:"px-2 "%>
+          <%= link_to (image_tag("TripSelector.jpeg", class:"tripselector-img", alt:"image of tripselector logo")), "https://www.trips-selector.com", target:"_blank", class:"px-2 "%>
           <h2><%= link_to "Tripselector", "https://www.trips-selector.com", target:"_blank", class:"px-2 "%></h2>
         </div>
         <p class="work-desc mt-3">
           With a team during my training at
           <%= link_to "Le Wagon", "https://www.lewagon.com", target:"_blank", class:"link link-light" %>,
           we created an application that takes any number of parameters you feed it, and generates a random journey.
+          It's a work in progress, but click the image to see it in action!
         </p>
       </div>
     </div>
@@ -128,7 +129,7 @@
 
 <div class="socials-bottom" data-controller="scroll-reveal bottomsocials" data-action="scroll@window->bottomsocials#update" data-bottomsocials-target="bottomsocials">
   <h1 class="reveal insta" data-scroll-reveal-target="item"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></a></i></h1>
-  <h1 class="reveal linkedin" data-scroll-reveal-target="item"><a href="https://www.linkedin.com/in/arnold-c-0a3079244/" target="_blank"><i class="fa-brands fa-linkedin-in"></a></i></h1>
+  <h1 class="reveal linkedin" data-scroll-reveal-target="item"><a href="https://www.linkedin.com/in/arnoldcubicijones/" target="_blank"><i class="fa-brands fa-linkedin-in"></a></i></h1>
   <h1 class="reveal github" data-scroll-reveal-target="item"><a href="https://www.github.com/AJCJ1" target="_blank"><i class="fa-brands fa-github"></i></a></h1>
 </div>
 <a href="#top" data-controller="scroll-to scroll-reveal" class="back-to-top"><i data-scroll-reveal-target="item" class="reveal fa fa-chevron-up" aria-hidden="true"></i></a>

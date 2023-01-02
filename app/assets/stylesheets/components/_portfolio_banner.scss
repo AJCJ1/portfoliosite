@@ -1,5 +1,5 @@
 .portfolio-container {
-  height: 100vh;
+  height: fit-content;
   background-color: $dark-blue;
   display: flex;
   flex-direction: column;
@@ -39,5 +39,7 @@
 .tripselector-img {
   width: 15vw;
   height: 15vw;
-  border-radius: 20%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 }
