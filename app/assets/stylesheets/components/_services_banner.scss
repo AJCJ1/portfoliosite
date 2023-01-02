@@ -1,6 +1,7 @@
 .services-banner-container {
   width: 100vw;
-  height: 93vh;
+  // height: 93vh; for tablet and above
+  height: 75vh;
   background-color: $dark-blue;
   display: flex;
   flex-wrap: wrap;
@@ -24,6 +25,9 @@
 
 
 .service-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 45%;
   height: 48%;
   img {
