@@ -1,7 +1,7 @@
 <div id="top"></div>
 <div class="socials" data-controller="socials scroll-reveal" data-action="scroll@window->socials#update">
   <h1 class="reveal insta" data-socials-target="social" data-scroll-reveal-target="item"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></a></i></h1>
-  <h1 class="reveal linkedin" data-scroll-reveal-target="item"><a href="https://www.linkedin.com/in/arnold-c-0a3079244/" target="_blank"><i class="fa-brands fa-linkedin-in"></a></i></h1>
+  <h1 class="reveal linkedin" data-scroll-reveal-target="item"><a href="https://www.linkedin.com/in/arnoldcubicijones/" target="_blank"><i class="fa-brands fa-linkedin-in"></a></i></h1>
   <h1 class="reveal github" data-scroll-reveal-target="item"><a href="https://www.github.com/AJCJ1" target="_blank"><i class="fa-brands fa-github"></i></a></h1>
 </div>
 <div class="home-banner">
@@ -20,42 +20,43 @@
     <h1 class="reveal" data-scroll-reveal-target="item" data-delay="750ms">And Developer.</h1>
   </div>
 </div>
+
 <div class="point-banner d-flex">
   <div class="point">
     <div class="point-head">
       <div class="circle"></div>
       <h2>Welcome.</h2>
     </div>
-    <p class="point-sub-text">Thank you for taking the time to browse my portfolio. You'll find information
+    <p class="point-sub-text">Thank you for taking the time to browse this site. You'll find information
     about my previous experience and the services I can offer.</p>
   </div>
 </div>
-<div class="services-header">
+<div class="dark-header">
   <h1>Services</h1>
 </div>
 <div id="services" class="services-banner-container" data-controller="scroll-reveal">
   <div class="service-item">
     <%= image_tag "figma-vector.svg"%>
     <p class="service-sub-text reveal" data-scroll-reveal-target="item">
-      Skilled in Figma <i class="fa-brands fa-figma"></i>, we can work together to develop a prototype of your idea. Let's be bold and be different!
+      I protoype ideas with <%= link_to raw("<span>Figma <i class='fa-brands fa-figma'></i></span>"), "https://www.figma.com/", target:"_blank" %>. This allows me to work with others and visualise ideas.
     </p>
   </div>
   <div class="service-item">
     <%= image_tag "full-vector.svg"%>
     <p class="service-sub-text reveal" data-scroll-reveal-target="item">
-      From front to back, we will take your idea and make it a fully functioning and original website.
+      From front to back, I can take an idea and make it a fully functioning and bespoke website.
     </p>
   </div>
   <div class="service-item">
     <%= image_tag "responsive-vector.svg"%>
     <p class="service-sub-text reveal" data-scroll-reveal-target="item">
-        Websites will become a responsive user interface for mobile, tablets and larger devices. No more clunky, oversized designs.
+      Responsive by design. I make sites that look good regardless of device.
     </p>
   </div>
   <div class="service-item">
     <%= image_tag "seo-vector.svg"%>
     <p class="service-sub-text reveal" data-scroll-reveal-target="item">
-      Using industry standard techniques, your site will be available and favourable to search engines like Google or Ecosia.
+      Using industry standard SEO, sites I create are favourable to search engines like Google or Ecosia.
     </p>
   </div>
 </div>
@@ -80,14 +81,63 @@
 </div>
 
 
+<div class="dark-header pb-5">
+  <h1>Previous Work</h1>
+</div>
+<div id="portfolio" class="portfolio-container">
 
-<%# <div id="portfolio" class="portfolio-container">Previous works %>
-<%# <%= link_to "TripSelector", "https://www.trips-selector.com", target:"_blank" %>
-<%# </div> %>
+<div class="work-container">
+    <div class="portfolio-left">
+      <div class="work">
+        <div class="d-flex">
+          <%= link_to (image_tag("TripSelector.jpeg", class:"tripselector-img", alt:"image of tripselector logo")), "https://www.trips-selector.com", target:"_blank", class:"px-2 "%>
+          <h2><%= link_to "Tripselector", "https://www.trips-selector.com", target:"_blank", class:"px-2 "%></h2>
+        </div>
+        <p class="work-desc mt-3">
+          With a team during my training at
+          <%= link_to "Le Wagon", "https://www.lewagon.com", target:"_blank", class:"link link-light" %>,
+          we created an application that takes any number of parameters you feed it, and generates a random journey.
+          It's a work in progress, but click the image to see it in action!
+        </p>
+      </div>
+    </div>
+</div>
+
+<%# end of tripselector carousel %>
+<div class="fold">
+    <div class="title">
+      <p class="letter letter-1"><span>A</span></p>
+      <p class="letter letter-2"><span>r</span></p>
+      <p class="letter letter-3"><span>n</span></p>
+      <p class="letter letter-4"><span>o</span></p>
+      <p class="letter letter-5"><span>l</span></p>
+      <p class="letter letter-6"><span>d</span></p>
+      <p class="letter letter-7"><span>C.</span></p>
+      <p class="letter letter-8"><span>J</span></p>
+      <p class="letter letter-9"><span>o</span></p>
+      <p class="letter letter-10"><span>n</span></p>
+      <p class="letter letter-11"><span>e</span></p>
+      <p class="letter letter-12"><span>s</span></p>
+      <p class="letter letter-13">
+      </p>
+    </div>
+  </div>
+
+
+</div>
+</div>
 
 <div class="socials-bottom" data-controller="scroll-reveal bottomsocials" data-action="scroll@window->bottomsocials#update" data-bottomsocials-target="bottomsocials">
   <h1 class="reveal insta" data-scroll-reveal-target="item"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></a></i></h1>
-  <h1 class="reveal linkedin" data-scroll-reveal-target="item"><a href="https://www.linkedin.com/in/arnold-c-0a3079244/" target="_blank"><i class="fa-brands fa-linkedin-in"></a></i></h1>
+  <h1 class="reveal linkedin" data-scroll-reveal-target="item"><a href="https://www.linkedin.com/in/arnoldcubicijones/" target="_blank"><i class="fa-brands fa-linkedin-in"></a></i></h1>
   <h1 class="reveal github" data-scroll-reveal-target="item"><a href="https://www.github.com/AJCJ1" target="_blank"><i class="fa-brands fa-github"></i></a></h1>
 </div>
 <a href="#top" data-controller="scroll-to scroll-reveal" class="back-to-top"><i data-scroll-reveal-target="item" class="reveal fa fa-chevron-up" aria-hidden="true"></i></a>
+
+
+
+<!-- ... existing HTML ... -->
+
+<div id="like_button_container"></div>
+
+<!-- ... existing HTML ... -->

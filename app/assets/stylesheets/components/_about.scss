@@ -5,7 +5,7 @@
   height: 18vh;
   justify-content: center;
   align-items: center;
-
+  color: $prussian-blue;
 }
 .about-point-container {
   width: 45%;
@@ -17,8 +17,8 @@
 }
 .about-title {
   padding:3%;
-  color: $prussian-blue;
   text-align: center;
+  color: $prussian-blue;
 }
 .about-content {
   display: flex;
@@ -55,8 +55,4 @@
 .ind-p-desc {
   margin-top: 10%;
   height: 30vw;
-}
-
-.ind-p-desc:hover {
-  color: $light-blue;
 }

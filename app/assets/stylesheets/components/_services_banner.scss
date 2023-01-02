@@ -9,7 +9,7 @@
   padding: 2%;
 }
 
-.services-header {
+.dark-header {
   background-color: $dark-blue;
   width: 100vw;
   height: 10vh;
@@ -35,5 +35,11 @@
 .service-sub-text {
   text-align: center;
   padding-top: 3%;
-  color: white;
+  color: $white;
+  a {
+    color: $light-blue;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }

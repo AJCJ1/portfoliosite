@@ -1,0 +1,45 @@
+.portfolio-container {
+  height: fit-content;
+  background-color: $dark-blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-container {
+  display: flex;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work {
+  width: 80%;
+  margin: auto;
+  a {
+    color: $white;
+    text-decoration: none;
+    margin-bottom: 2.5%;
+  }
+  h2 {
+    margin: auto 0;
+  }
+}
+.work:hover {
+  img {
+    box-shadow: 2px 2px 0px $light-blue;
+    transition: 0.3s ease;
+  }
+  a {
+    color: $light-blue;
+    }
+}
+.work-desc {
+  color: $white;
+}
+.tripselector-img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
