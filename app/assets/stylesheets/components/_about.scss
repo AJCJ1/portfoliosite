@@ -56,3 +56,10 @@
   margin-top: 10%;
   height: 30vw;
 }
+// laptops
+@media screen and (min-width: 1200px) and (min-height:525px) {
+  .ind-p-desc {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+}
