@@ -18,6 +18,10 @@
   <div class="home-banner-text" data-controller="scroll-reveal">
     <h1 class="reveal" data-scroll-reveal-target="item" data-delay="550ms">Creative Designer</h1>
     <h1 class="reveal" data-scroll-reveal-target="item" data-delay="750ms">And Developer.</h1>
+    <div class="qrcode reveal" data-scroll-reveal-target="item" data-delay="1250ms">
+      <p>See this site on your phone.</p>
+      <div><%= @qr_as_svg.html_safe %></div>
+    </div>
   </div>
 </div>
 
