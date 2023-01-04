@@ -1,0 +1,12 @@
+.qrcode {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  padding: 0.5vh 0.5vh;
+  svg {
+    color: $white;
+    height: 15vh;
+  }
+}
