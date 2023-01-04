@@ -5,7 +5,7 @@ class PagesController < ApplicationController
       offset: 0,
       shape_rendering: 'crispEdges',
       standalone: true,
-      color: "96C3F6",
+      color: "F7F7F7",
       viewbox: true
     )
   end
