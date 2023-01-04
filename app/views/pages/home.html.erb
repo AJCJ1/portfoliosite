@@ -161,14 +161,14 @@
 
 <div class="work-container">
     <div class="portfolio-left">
-      <div class="work">
+      <div class="work" data-controller="scroll-reveal">
         <div class="d-flex">
           <%= link_to image_tag("tripselector.jpg", class:"tripselector-img", alt:"image of tripselector logo"), "https://www.trips-selector.com", target:"_blank", class:"px-2 "%>
           <h2><%= link_to "Tripselector", "https://www.trips-selector.com", target:"_blank", class:"px-2 "%></h2>
         </div>
-        <p class="work-desc mt-3">
+        <p class="work-desc mt-3 reveal" data-scroll-reveal-target="item" data-delay="250ms">
           With a team during my training at
-          <%= link_to "Le Wagon", "https://www.lewagon.com", target:"_blank", class:"link link-light" %>,
+          <%= link_to "Le Wagon", "https://www.lewagon.com", target:"_blank", id:"ptflnk" %>,
           we created an application that takes any number of parameters you feed it, and generates a random journey.
           It's a work in progress, but click the image to see it in action!
         </p>
