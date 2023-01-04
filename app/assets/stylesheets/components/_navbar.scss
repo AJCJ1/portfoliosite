@@ -15,6 +15,7 @@
   a {
     text-decoration: none;
     color: white;
+    font-size: large;
     &:hover {
       opacity: 0.8;
     }
@@ -26,6 +27,18 @@
   align-items: center;
   width: 33%;
   gap: 3.5%;
+}
+.ptf {
+  margin-right: 4vw;
+}
+.ctct {
+  margin-left: 4vw;
+}
+.svcs {
+  display: none;
+}
+.abt {
+  display: none;
 }
 
 .left-cta-container {
