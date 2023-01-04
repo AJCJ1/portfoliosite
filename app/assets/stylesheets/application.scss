@@ -63,7 +63,7 @@ html {
   }
   .side-cta-container {
     a {
-      font-size: medium;
+      font-size: x-large;
     }
   }
 
@@ -72,6 +72,12 @@ html {
   }
   .abt {
     display: block;
+  }
+  .ptf {
+    margin-right: 0;
+  }
+  .ctct {
+    margin-left: 0;
   }
 }
 
@@ -139,6 +145,11 @@ html {
       width: 100%;
       height: 60vh;
       object-fit: cover;
+    }
+  }
+  .side-cta-container {
+    a {
+      font-size: xx-large;
     }
   }
 }
