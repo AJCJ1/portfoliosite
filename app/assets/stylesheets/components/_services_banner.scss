@@ -1,15 +1,20 @@
 .services-banner-container {
   width: 100vw;
-  // height: 93vh; for tablet and above
-  height: 75vh;
+  height: fit-content;
   background-color: $dark-blue;
   display: flex;
   flex-wrap: wrap;
   gap: 5%;
   justify-content: center;
   padding: 2%;
+  align-content: center;
+  align-items: center;
+  // mob only
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 4vh;
+  padding-bottom: 5%;
 }
-
 .dark-header {
   background-color: $dark-blue;
   width: 100vw;
@@ -18,24 +23,23 @@
   height: fit-content;
   h1 {
     margin-bottom: 0;
+    padding-bottom: 3%;
     padding-top: 5%;
     text-align: center;
   }
 }
-
-
 .service-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 45%;
+  // mob
+  width: 80%;
   height: 48%;
   img {
     width: 100%;
     height: 50%;
   }
 }
-
 .service-sub-text {
   text-align: center;
   padding-top: 3%;
