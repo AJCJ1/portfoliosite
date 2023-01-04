@@ -21,7 +21,7 @@ html {
   font-size: 16px;
   --max-width:1600px;
   p {
-    font-size: 10px;
+    font-size: 15px;
   }
   .side-cta-container {
     font-size: larger;
@@ -33,7 +33,7 @@ html {
     h1 {
       font-size: calc(24px + 6 * ((100vw - 320px) / 680));
     }
-    font-size: calc(10px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(15px + 6 * ((100vw - 320px) / 680));
   }
   .home-banner-text {
     padding-right: 2%;
