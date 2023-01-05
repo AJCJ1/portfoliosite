@@ -1,5 +1,5 @@
 meta_product_name: "Arnold C. Jones"
 meta_title: "Arnold C. Jones - Web Designer and Developer"
 meta_description: "Hi there, I'm a web designer based in the UK. I make SEO responsive, Mobile first websites."
-meta_image: "home-banner.jpg" # should exist in `app/assets/images/`
+meta_image: "metaimg.jpg" # should exist in `app/assets/images/`
 twitter_account: "@ArnoldCJones"   # required for Twitter Cards
