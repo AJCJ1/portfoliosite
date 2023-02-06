@@ -21,6 +21,7 @@ html {
   font-size: 16px;
   --max-width:1600px;
   p {
+    text-shadow:.4px .4px $prussian-blue;
     font-size: 15px;
   }
   .side-cta-container {
@@ -258,5 +259,3 @@ html {
     bottom: 1.8rem;
   }
 }
-
-// test
